@@ -3,7 +3,7 @@
 
 $change = (float) round($argv[1], 2);
 
-$change = (round($change / 0.05)) * 0.05;
+$change = (round($change / 0.5)) * 0.5;
 define(
     "GELDEUROS",
     [
